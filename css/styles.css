@@ -9,6 +9,9 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+#total{
+  background-color: #b9c50b;
+}
 #quote-box {
   position: absolute;
   top: 20%;
