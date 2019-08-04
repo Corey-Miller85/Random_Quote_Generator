@@ -7,15 +7,47 @@ project 1 - A Random Quote Generator
 
 
 /*** 
-  Create the array of quote objects and name it `quotes`.
-  Add at least five quote objects to the `quotes` array.
-  Give each quote object a `quote` and `source` property.
-  Add the `citation` property to at least one object in the array.
-  Add the `year` property to at least one object in the array.
-  Use console.log() to log your array of quotes to the console.
-***/
+ Create the array of quote objects and name it `quotes`.
+ Add at least five quote objects to the `quotes` array.
+ Give each quote object a `quote` and `source` property.
+ Add the `citation` property to at least one object in the array.
+ Add the `year` property to at least one object in the array.
+ Use console.log() to log your array of quotes to the console.
+ ***/
 
 
+var quotes = [
+{
+  quote: "Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.",
+  source: "Arnold Schwarzenegger",
+  citation: "",
+  year: ""
+},
+{
+  quote: "If you are working on something exciting that you really care about, you don’t have to be pushed. The vision pulls you.",
+  source: "Steve Jobs",
+  citation: "",
+  year: ""
+},
+{
+  quote: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+  source: "Mahatma Ghandi",
+  citation: "",
+  year: ""
+},
+{
+  quote: "This above all: to thine own self be true.",
+  source: "William Shakespeare",
+  citation: "",
+  year: ""
+},
+{
+  quote: "A journey of a thousand leagues begins beneath one’s feet.",
+  source: "Lao Tzu",
+  citation: "",
+  year: ""
+},
+];
 
 
 /***
