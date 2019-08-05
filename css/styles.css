@@ -9,9 +9,6 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-#total{
-  background-color: #b9c50b;
-}
 #quote-box {
   position: absolute;
   top: 20%;
@@ -72,6 +69,19 @@ body {
 .year:before {
   content: ", ";
   font-style: normal;
+}
+
+.tag {
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  text-align: right;
+  margin-right: 4em;
+}
+
+.tag:before {
+  content: "Tags: ";
+  font-style: bold;
 }
 
 #loadQuote {
