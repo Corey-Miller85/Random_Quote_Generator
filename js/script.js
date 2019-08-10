@@ -78,6 +78,7 @@ function printQuote() {
   var htmlString = '';
   var quoteBox = document.getElementById('quote-box');
 
+  
   htmlString += '<p class="quote">' + ranQuote.quote +  '</p> <p class="source">' + ranQuote.source;
   if (ranQuote.citation) {
    htmlString += '<span class="citation">' + ranQuote.citation + '</span>';
