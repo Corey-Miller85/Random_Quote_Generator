@@ -84,7 +84,7 @@ function printQuote() {
    htmlString += '<span class="citation">' + ranQuote.citation + '</span>';
   }
   if (ranQuote.year) {
-    htmlString += '<span class="year">' + ranQuote.year + '</span>< /p>';
+    htmlString += '<span class="year">' + ranQuote.year + '</span></p>';
   }
   if (ranQuote.tag) {
     htmlString += '<p> <span class="tag">' + ranQuote.tag.join(", ") + '</span>' + '</p>';
